@@ -1,0 +1,30 @@
+li{
+    .text-item{
+        max-width: 69vw!important;
+        span{
+            color: rgb(0, 149, 255);
+            font-weight: bolder;
+        }
+        a{
+            font-weight: bolder;
+        }
+        span:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+// for animte new data added 
+.animate-bg{
+    animation: first 2s;
+    animation: second 1s;
+}
+
+@keyframes first {
+    from {background-color: white;}
+    to {background-color: rgb(196, 0, 196);;}
+  }
+  @keyframes second {
+    from {background-color: rgb(196, 0, 196);}
+    to {background-color: white;}
+  }

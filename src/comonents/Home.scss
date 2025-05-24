@@ -1,0 +1,104 @@
+/* SCSS Styling */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+  }
+  
+  .home-content {
+    max-width: 800px;
+  }
+  
+  .title-text {
+    font-size: 2.5rem;
+    span {
+      color: #ffcc00;
+    }
+  }
+  
+  .sub-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .device-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    .device-icon, .sync-icon {
+      font-size: 2rem;
+      margin: 0 10px;
+      color: #ffcc00;
+    }
+  }
+  
+  .title-logo {
+    font-size: 1.8rem;
+    background-color: rgba(0, 50, 50, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .nav-logo {
+      margin-right: 8px;
+      color: aqua;
+      background: black;
+      padding: 5px;
+      border-radius: 50%;
+    }
+  }
+  
+  .feature-list {
+    background: rgba(0, 50, 50, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    list-style: none;
+    li {
+      margin: 10px 0;
+    }
+    .feature-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        background: #ffcc00;
+        padding: 5px 10px;
+        color: black;
+        border-radius: 5px;
+      }
+    }
+  }
+  
+  .signup-btn {
+    background: #ffcc00 !important;
+    color: black !important;
+    font-weight: bold !important;
+  }
+  
+  .app-footer {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background: #212529;
+    width: 100%;
+    text-align: center;
+    p span {
+      color: #ffcc00;
+    }
+    .social-links {
+      margin-top: 5px;
+      a {
+        margin: 0 10px;
+        color: white;
+      }
+    }
+  }
+  
