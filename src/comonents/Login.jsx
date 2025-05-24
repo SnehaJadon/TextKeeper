@@ -162,14 +162,14 @@ function Login({ user }) {
           >
             Sign in
           </Button>
-          <a
+          {/* <a
             target="_blank"
             rel="noreferrer"
-            href="https://instagram.com/utkarshencoder"
+            href="#"
             className="reset text-primary"
           >
             Reset your password
-          </a>
+          </a> */}
           <hr className="hri" />
           <Button
             variant="outlined"

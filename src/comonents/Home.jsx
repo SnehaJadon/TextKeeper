@@ -56,13 +56,6 @@ function Home() {
           <li>Delete & Manage Effortlessly</li>
         </ul>
       </div>
-
-      <footer className="app-footer">
-        <p>Developed by <span>Sneha Jadon</span></p>
-        <div className="social-links">
-          <a href="https://github.com/SnehaJadon" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-      </footer>
     </div>
   );
 }

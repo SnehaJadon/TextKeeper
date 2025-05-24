@@ -94,7 +94,7 @@ function NavbarComponent({ currentUser, clearDataList }) {
         </Link>
         <Nav.Link
           target="_blank"
-          href="https://github.com/SnehaJadon"
+          href="https://www.linkedin.com/in/sneha-jadon-8a1220210/"
           onClick={toggleArrow}
         >
           <SupervisedUserCircleIcon className="nav-icons" />
@@ -104,16 +104,6 @@ function NavbarComponent({ currentUser, clearDataList }) {
         <Nav.Link className="fullname mp-0" onClick={SignOut}>
           <LogoutIcon className="nav-icons" />
           Sign Out
-        </Nav.Link>
-        <hr className="divider" />
-        <Nav.Link className="fullname mp-0 text-yellow2">
-          🔥Developer
-        </Nav.Link>
-        <Nav.Link className="fullname mp-0 text-yellow"
-          target="_blank"
-          href="https://github.com/SnehaJadon"
-          onClick={toggleArrow}>
-          Sneha Jadon
         </Nav.Link>
         <Button variant="dark">
           <NavDropdown
@@ -149,7 +139,7 @@ function NavbarComponent({ currentUser, clearDataList }) {
         </Link>
         <Nav.Link
           target="_blank"
-          href="https://instagram.com/utkarshencoder"
+          href="https://www.linkedin.com/in/sneha-jadon-8a1220210/"
           onClick={toggleArrow}
         >
           <SupervisedUserCircleIcon className="nav-icons" />
@@ -164,16 +154,6 @@ function NavbarComponent({ currentUser, clearDataList }) {
           <LoginIcon className="nav-icons" />
           Sign in
         </Link>
-        <hr className="divider" />
-        <Nav.Link className="fullname mp-0 text-yellow2">
-          🔥Developer
-        </Nav.Link>
-        <Nav.Link className="fullname mp-0 text-yellow"
-          target="_blank"
-          href="https://instagram.com/utkarshencoder"
-          onClick={toggleArrow}>
-          Utkarsh Sharma
-        </Nav.Link>
       </Nav>
     );
   };
